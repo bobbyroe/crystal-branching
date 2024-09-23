@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import getBgSphere from "./getBgSphere.js";
-import { OrbitControls } from "../libs/jsm143/controls/OrbitControls.js";
+import { OrbitControls } from "jsm/controls/OrbitControls.js";
 const w = window.innerWidth;
 const h = window.innerHeight;
 const scene = new THREE.Scene();
